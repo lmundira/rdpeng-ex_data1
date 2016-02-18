@@ -25,5 +25,5 @@ plot(as.numeric(mydata1$Global_reactive_power),main ="Global Reactive Power",typ
 axis(1, at = c(0,1500,2900),labels = c("Thu","Fri","Sat"))
 axis(2,at=c(0.1,0.2,0.3,0.4),c("0.1","0.2","0.3","0.4"))
 box(lty = 1, col = 'black')
-dev.copy(png,"plot4.png")
+dev.copy(png,"plot4.png",height=480, width=480, units="px")
 dev.off()
